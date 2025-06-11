@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhamed Tharik</title>
-    <link rel="icon" href="muhamed Tharik.jpg" type="image/x-icon">
+    <link rel="icon" href="images/muhamed Tharik.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-info bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #363062;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Portfolio</a>
+    <a class="navbar-brand text-white" href="#">Portfolio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="#summary">Home</a>
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="#contact">contact</a>
+        <a class="nav-link active text-white" aria-current="page" href="#summary">Home</a>
+        <a class="nav-link text-white" href="#about">About</a>
+        <a class="nav-link text-white" href="#contact">contact</a>
       </div>
     </div>
   </div>
 </nav>
-<section id="summary" class="py-5 bg-dark text-info">
-<div class="container">
+<section id="summary" class="py-5  text-info">
+<div class="container" id="sum">
     <h4><b>Summary</b></h4>
 <p style="text-align: justify;"> I am a self-motivated and proactive individual with strong interpersonal and communication skills. I thrive in both
  independent and collaborative work environments, consistently delivering high-quality results. My ability to adapt
@@ -34,26 +35,26 @@
  strive to enhance my skills through learning and real-world application</p>
 </div>
 </section>
-<section id="about" class="py-5 bg-dark text-white">
-    <div class="container ">
+<section id="about">
+    <div class="container" id="aboutme">
   <div class="row align-items-center">
     <div class="col-6 ">
-        <h4 class="text-info"><b>About Me</b></h4>
-        <p style="text-align: justify;" class="text-info">I'm a B.Tech student in Cyber Security and IoT at SRIHER. I have a strong interest in technology and problem-solving, with experience in Android development using Kotlin and Java. I’ve worked on projects like a digital employment exchange platform and sentiment analysis for cybersecurity. I’m currently enhancing my skills in Linux, SQL, and web development.
+        <h4><b>About Me</b></h4>
+        <p style="text-align: justify;">I'm a B.Tech student in Cyber Security and IoT at SRIHER. I have a strong interest in technology and problem-solving, with experience in Android development using Kotlin and Java. I’ve worked on projects like a digital employment exchange platform and sentiment analysis for cybersecurity. I’m currently enhancing my skills in Linux, SQL, and web development.
 </p>
     </div>
     <div class="col-6">
-      <img src="image.png" class="img-fluid rounded-3">
+      <img src="images/image.png" class="img-fluid rounded-3">
     </div>
   </div>
 </div>
 </section>
-<section id="projects"class=" py-5 bg-dark text-info">
+<section id="projects"class=" py-5  text-info">
     <div class="container">
         <h4><b>Projects</b></h4>
     <div class="row py-3">
       <div class="col-md-6">
-        <div class="card shadow-sm h-100 bg-info text-white">
+        <div class="card shadow-sm h-100 bg-transparent text-black" id="pro1">
           <div class="card-body">
             <h5 class="card-title">Voice Controlled Car</h5>
             <p class="card-text">Developed a voice-controlled car using IoT technology, enabling wireless navigation through speech commands.</p>
@@ -63,7 +64,7 @@
       </div>
 
         <div class="col-md-6">
-        <div class="card shadow-sm h-100 bg-info text-white">
+        <div class="card shadow-sm h-100 bg-transparent  text-black" id="pro2">
           <div class="card-body">
             <h5 class="card-title">Face Comparision Web App</h5>
             <p class="card-text">Developed a face comparison web app that uses facial recognition technology to match and verify faces for authentication purposes.</p>
@@ -74,11 +75,73 @@
       </div>
       </div>
 </section>
- <section id="contact" class="py-5 bg- text-center bg-dark text-info">
+<section id="projects"class=" py-5  text-info">
+    <div class="container">
+        <h4><b>Skills</b></h4>
+    <div class="row py-3">
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 bg-transparent text-black" id="sk1">
+          <div class="card-body">
+            <h5 class="card-title">Programming Languages:</h5>
+            <ul>
+              <li>Java</li>
+              <li>Kotlin</li>
+              <li>Python</li>
+              <li>c++</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-3">
+        <div class="card shadow-sm h-100 bg-transparent text-black" id="sk2">
+          <div class="card-body">
+            <h5 class="card-title">Tools & Technologies: </h5>
+            <ul>
+              <li>Android Studio</li>
+              <li>Git</li>
+              <li>Firebase</li>
+              <li>Postman API</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+        <div class="col-md-3">
+        <div class="card shadow-sm h-100 bg-transparent text-black" id="sk3">
+          <div class="card-body">
+            <h5 class="card-title"> Database Management:</h5>
+            <ul>
+              <li>MySQL</li>
+              <li>SQLite</li>
+              <li>Mongo DB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+              <div class="col-md-3">
+        <div class="card shadow-sm h-100 bg-transparent text-black" id="sk4">
+          <div class="card-body">
+            <h5 class="card-title">Known Languages</h5>
+            <ul>
+              <li>Tamil</li>
+              <li>English</li>
+              <li>Arabic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+</section>
+
+ <section id="contact" class="py-5 bg- text-center text-black bg-transparent">
   <h3>Contact Me</h3>
-  <p>Email: <a href="mailto:mohamedkktharik@gmail.com">mohamedkktharik@gmail.com</a> | Phone: <a href="tel:+918438975864">+91 8438975864</a></p>
+  <p><b>Email:</b> <a href="mailto:mohamedkktharik@gmail.com">mohamedkktharik@gmail.com</a> <b>| Phone:</b> <a href="tel:+918438975864">+91 8438975864</a></p>
  </section>
- <footer class="text-center text-white bg-info py-3 align-items-center">
+ <footer class="text-center text-white  py-3 align-items-center" style="background-color: #363062;">
     <p><b>&copy;2025 Muhamed Tharik. All Rights Reserved</b><p></p>
  </footer>
 </body>

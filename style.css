@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(images/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-fluid{
+    background-color: #363062;
+}
+.container{
+    padding: 5px;
+    color: black;
+}
+
+
+#sum{
+    backdrop-filter: blur(20px);
+}
+#aboutme{
+    backdrop-filter: blur(20px);
+}
+#pro1{
+    backdrop-filter: blur(20px);
+}
+#pro2{
+    backdrop-filter: blur(20px);
+}
+#sk1{
+    backdrop-filter: blur(20px);
+}
+#sk2{
+    backdrop-filter: blur(20px);
+}
+#sk3{
+    backdrop-filter: blur(20px);
+}
+#sk4{
+    backdrop-filter: blur(20px);
+}
