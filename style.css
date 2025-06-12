@@ -1,12 +1,13 @@
 
 body{
-    background-image: url(images/wallpaper.png);
+    background-image: url(images/wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: Helvetica;
 }
 .container-fluid{
-    background-color: #363062;
+    background-color: #9fb6c3;
 }
 .container{
     padding: 5px;
@@ -15,11 +16,12 @@ body{
 
 
 #sum{
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
 }
 #aboutme{
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
 }
+
 #pro1{
     backdrop-filter: blur(20px);
 }
@@ -69,4 +71,7 @@ body{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 2;
+}
+#footer{
+    height: 50px;
 }
