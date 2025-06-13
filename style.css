@@ -7,7 +7,8 @@ body{
     font-family: Helvetica;
 }
 .container-fluid{
-    background-color: #9fb6c3;
+    background-color:transparent;
+    backdrop-filter: blur(50px);
 }
 .container{
     padding: 5px;
@@ -20,6 +21,12 @@ body{
 }
 #aboutme{
     backdrop-filter: blur(30px);
+}
+#con{
+    align-items: center;
+    width: 500px;
+    margin-left: 500px;
+    backdrop-filter: blur(20px);
 }
 
 #pro1{
@@ -74,4 +81,7 @@ body{
 }
 #footer{
     height: 50px;
+}
+#mail:hover,#phone:hover,#linkin:hover,#insta:hover{
+    transform: scale(1.4);
 }

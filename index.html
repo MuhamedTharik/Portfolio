@@ -10,18 +10,18 @@
 </head>
 <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9fb6c3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="backdrop-filter: blur(20px);background-color: rgba(255, 255, 255, 0.3);-webkit-backdrop-filter: blur(20px); opacity: 1;">
   <div class="container-fluid">
-    <a class="navbar-brand text-white" href="#">Muhamed Tharik</a>
+    <a class="navbar-brand text-black" href="#">Muhamed Tharik</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link active text-white" aria-current="page" href="#summary">Home</a>
-        <a class="nav-link text-white" href="#about">About</a>
-        <a class="nav-link text-white" href="#projects">Projects</a>
-        <a class="nav-link text-white" href="#contact">Contact</a>
+        <a class="nav-link active text-black" aria-current="page" href="#summary">Home</a>
+        <a class="nav-link active text-black" href="#about">About</a>
+        <a class="nav-link active text-black" href="#projects">Projects</a>
+        <a class="nav-link active text-black" href="#contact">Contact</a>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@
   <div class="row align-items-center" id="aboutme">
     <div class="col-6  px-5">
         <h4 style="text-align: center;padding-bottom: 10px;"><b>About Me</b></h4>
-        <p style="text-align: justify;">I'm a B.Tech student in Cyber Security and IoT at SRIHER. I have a strong interest in technology and problem-solving, with experience in Android development using Kotlin and Java. I’ve worked on projects like a digital employment exchange platform and sentiment analysis for cybersecurity. I’m currently enhancing my skills in Linux, SQL, and web development.
+        <p style="text-align: justify;">I'm a B.Tech student in Cyber Security and IoT at SRIHER. I have a strong interest in technology and problem-solving, with experience in Android development using Kotlin and Java. I’ve worked on projects like a digital employment exchange platform and digital forensic face comparision web app in cybersecurity. I’m currently enhancing my skills in Linux, SQL, and web development.
 </p>
     </div>
     <div class="col-6 px-5">
@@ -129,7 +129,6 @@
             <ul>
               <li>Tamil</li>
               <li>English</li>
-              <li>Arabic</li>
             </ul>
           </div>
         </div>
@@ -139,8 +138,12 @@
 </section>
 
  <section id="contact" class="py-5 bg- text-center text-black bg-transparent">
-  <h3><b>Contact Me</b></h3>
-  <p><a href="mailto:mohamedkktharik@gmail.com"><img src="images/gmail.png"></a><a href="tel:+918438975864"><img src="images/phone.png"></a> <a href="https://www.linkedin.com/in/muhamed-tharik-340a81254/"><img src="images/link.png"></a><a href="https://www.instagram.com/tharxk_.x/"><img src="images/insta.png"></a></p>
+          <div class="card shadow-sm h-100 bg-transparent text-black" id="con">
+          <div class="card-body">
+            <h5 class="card-title"><b>Contact</b></h5>
+              <p><a href="mailto:mohamedkktharik@gmail.com"><img src="images/gmail.png" id="mail"></a><a href="tel:+918438975864"><img src="images/phone.png" id="phone"></a> <a href="https://www.linkedin.com/in/muhamed-tharik-340a81254/"><img src="images/link.png" id="linkin"></a><a href="https://www.instagram.com/tharxk_.x/"><img src="images/insta.png" id="insta"></a></p>
+          </div>
+        </div>
  </section>
  <footer class="text-center text-white  py-3 align-items-center" style="background-color: #9fb6c3" id="footer">
     <p><b>&copy;2025 Muhamed Tharik. All Rights Reserved</b><p></p>
