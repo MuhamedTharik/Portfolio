@@ -8,7 +8,7 @@ body{
 }
 .container-fluid{
     background-color:transparent;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(0px);
 }
 .container{
     padding: 5px;
