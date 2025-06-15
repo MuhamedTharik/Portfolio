@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/wallpaper.jpg);
+    background-image: url(images/wallpaper1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
 }
 
 #sum {
-    backdrop-filter: blur(30px);
+    background-color: transparent;
 }
 
 #con {
