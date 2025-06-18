@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/wallpaper1.jpg);
+    background-image: url(images/wallpaer2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -24,15 +24,16 @@ body {
     align-items: center;
     width: 500px;
     margin-left: 500px;
-    backdrop-filter: blur(20px);
 }
 
 #pro1, #pro2,
-#sk1, #sk2, #sk3, #sk4,
-#mail, #phone, #linkin, #insta {
-    backdrop-filter: blur(20px);
+#sk1, #sk2, #sk3, #sk4{
+    background-color: #FFA673;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     will-change: transform, box-shadow;
+}
+#mail, #phone, #linkin, #insta{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #pro1:hover, #pro2:hover,
 #sk1:hover, #sk2:hover, #sk3:hover, #sk4:hover {
